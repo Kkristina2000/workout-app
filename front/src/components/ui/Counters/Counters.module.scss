@@ -1,0 +1,29 @@
+@import '../../../scss/variables';
+
+.wrapper{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &.profile{
+        >.count .heading{
+            color: #775f77;
+        }
+    }
+    >.count {
+        width: 30%;
+        font-size: 24px;
+        text-align:center;
+        .heading{
+            color: $purple;
+            text-transform: capitalize;
+        }
+        .number{
+            font-weight: bold;
+            color: #fff
+        }
+    }
+
+
+
+}

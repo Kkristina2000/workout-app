@@ -1,0 +1,35 @@
+@import '../../../scss/variables';
+
+.time{
+    color:#deb6b6;
+    font-size: 20px;
+}
+.wrapper{
+    >div.item{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        background-color: $purple;
+        color: $white;
+        font-size: 20px;
+        padding: 14px 20px;
+        border-radius: 10px;
+        &.finished{
+            background-color: $dark-purple;
+        }
+        >a {
+            display: block;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: $white;
+            text-decoration: none;
+        }
+    }
+    .line{
+        background-color: $dark-purple;
+        height: 1px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
